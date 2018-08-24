@@ -21,7 +21,8 @@ class CreateDinasLuarTable extends Migration
             $table->string('pic_tujuan');
             $table->string('jumlah_pegawai');
             $table->text('alamat');
-            $table->string('provinsi')
+            $table->string('kota');
+            $table->string('provinsi');
             $table->string('jumlah_anggaran');
             $table->timestamps();
         });
